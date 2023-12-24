@@ -1,0 +1,417 @@
+body{
+    background-color: #FEEAEF;
+}
+
+.navbar {
+    background-color: #FEB5DD !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 14px;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler-icon {
+    background-color: #333;
+  }
+
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-link {
+    color: #333; /* Warna teks link */
+    font-weight: bold; /* Menyesuaikan ketebalan teks link */
+  }
+
+  .nav-link:hover {
+    color: #fff; /* Warna teks link saat dihover */
+  }
+
+
+.nav1{
+    width: 50px;
+    margin-left: 30px;
+}
+
+.nav2{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 300px;
+}
+
+li.nav2 a {
+    color: white !important;
+  }
+
+  li.nav3 a {
+    color: white !important;
+  }
+
+  .search-form {
+    display: flex;
+    align-items: center;
+    margin-right: 300px;
+  }
+
+  .search-input {
+    position: relative;
+  }
+
+  .search-input input {
+    border-radius: 20px;
+    padding-left: 40px;
+    
+  }
+
+  .search-logo {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .search-input input::placeholder {
+    opacity: 0.7; /* Sesuaikan nilai kejelasan (0.0 - 1.0) */
+  }
+
+  .profile-icons {
+    display: flex;
+    align-items: center;
+  }
+
+  .profile-icon {
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #ffffff; /* Warna latar belakang */
+    color: #333; /* Warna ikon */
+  }
+
+  .card1 {
+    margin-top: 50px;
+    width: 700px;
+    position: relative;
+    background-image: url('/images/tomyum.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Menambahkan box-shadow */
+    
+  }
+  
+
+  .card2{
+    height: 365px;
+    margin-top: 50px;
+    width: 380px;
+    position: relative;
+    background-color: #FEB5DD;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Menambahkan box-shadow */
+  }
+
+  .iconimage {
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 70%;
+    height: auto;
+  }
+  
+  .card1::before {
+    content: ''; /* Elemen pseudo sebelumnya untuk lapisan transparan */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.589); /* Warna putih dengan tingkat kejernihan (opacity) 0.8 */
+  }
+  
+  .card-footer {
+    background-color: #FEB5DD;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Menambahkan box-shadow */
+  }
+  
+  .card-footer p {
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px; /* Menambahkan margin antara teks dan daftar */
+  }
+
+  .card-footer ul li{
+    margin-top: 5px;
+    color: white;
+  }
+  
+  .card-title1 {
+    font-weight: bold;
+    color: #5E153D;
+    margin-top: 100px;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .search-form1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    z-index: 1;
+  }
+  
+  .search-input1 input {
+    padding-right: 100px;
+    padding-left: 50px;
+    border-radius: 20px;
+  }
+  
+  .search-logo1 {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  
+
+  .container2 {
+    margin-top: 50px;
+    height: 500px;
+    background-color: #FEB5DD;
+    padding-top: 30px; /* Menambahkan padding ke atas */
+  }
+  
+  .container2 h1 {
+    margin-left: 40px;
+    color: #5E153D;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 5px; /* Menambahkan margin ke atas untuk h1 */
+  }
+  .card3 {
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 30px;
+    background-color: white;
+    height: 300px;
+    width: 18rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  
+  /* Hover effect on the card */
+  .card3:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style for the card image */
+  .cardimg2 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%; /* Make the image fill the container */
+  }
+  
+  /* Style for the card body */
+  .card3 .card-body {
+    padding: 1.25rem;
+  }
+  
+  /* Style for the card title */
+  .card3 .card-body h1 {
+    margin-left: 0;
+    font-size: 18px;
+    color: #FC46AA;
+    margin-bottom: 10px;
+    
+  }
+  
+  /* Style for the heart icon */
+  .card3 .card-body i {
+    float: right;
+    font-size: 14px;
+    color: #FC46AA;
+    margin-right: 5px;
+  }
+  
+  /* Style for the card text */
+  .card3 .card-body p {
+    font-size: 12px;
+    color: #FC46AA;
+    text-align: justify; /* Justify the text */
+  }
+
+  .container3{
+    text-align: center;
+    margin-top: 50px;
+  }
+  .container3 p {
+    color: #5E153D;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px; 
+  }
+
+  .container3 .pilih {
+    font-weight: bold; /* Membuat teks menjadi tebal */
+    text-decoration: underline; /* Menambahkan garis bawah */
+  }
+  
+  /* Card styling */
+.card4 {
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 30px;
+    background-color: white;
+    height: 300px;
+    width: 18rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Image styling */
+  .cardimg2 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Card body styling */
+  .card-body {
+    padding: 15px;
+  }
+  
+  /* Title styling */
+  .card-body h1 {
+    margin-left: 0;
+    font-size: 18px;
+    color: #FC46AA;
+    margin-bottom: 10px;
+  }
+  
+  /* Icon styling */
+  .card-body i {
+    color: #ff4d94; /* Adjust the color as needed */
+    margin-left: 5px;
+  }
+  
+  /* Text styling */
+  .card-body p {
+    margin-left: 0;
+    font-size: 12px;
+    color: #FC46AA;
+    text-align:left;
+  }
+  
+  /* Hover effect */
+  .card4:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .bawah{
+    float: left;
+  }
+
+  .btnlain {
+    margin-top: 50px;
+    background-color: #fff; /* Warna latar belakang tombol */
+    color: #5E153D; /* Warna teks tombol */
+    padding: 10px 15px; /* Padding tombol */
+    border-radius: 20px; /* Sudut border tombol */
+    display: inline-block; /* Membuat tombol menjadi inline */
+    text-decoration: none; /* Menghilangkan dekorasi teks */
+  }
+  
+  .btnlain i {
+    margin-left: 5px; /* Memberikan margin antara teks dan ikon */
+  }
+
+  .container4 {
+    margin-top: 50px;
+    background-color: #FEB5DD; /* Warna latar belakang container */
+    padding: 20px; /* Padding container */
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-left{
+    margin-left: 50px;
+    margin-right: 400px;
+  }
+  
+  .footer-left, .footer-right {
+    width: 48%; /* Lebar setiap bagian footer */
+  }
+  
+  .footer-left p, .footer-right p {
+    color: #741C4C;
+    font-size: 15px; /* Ukuran teks */
+    line-height: 1.6; /* Spasi baris */
+  }
+  
+
+  .footunder{
+    text-decoration: underline;
+  }
+
+  .footertengah {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+  }
+  
+  .footertengah p {
+    color: #5E153D;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footertengah p::before {
+    content: '\00a9'; /* Kode karakter untuk simbol copyright */
+    font-size: 18px; /* Ukuran simbol */
+    margin-right: 5px; /* Jarak antara simbol dan teks */
+  }
+
+  .sosmed-icons {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .sosmed-icon {
+    margin-right: 10px;
+  }
+  
+  .sosmed-icon img {
+    width: 24px; /* Sesuaikan ukuran ikon sosial media */
+  }
+ 
+  
+  
+  
+
+  
+  
